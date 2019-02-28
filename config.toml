@@ -1,0 +1,34 @@
+baseURL = "https://elmasry.me/"
+languageCode = "en-gb"
+title = "Sacha El Masry"
+theme = "hugo-resume"
+
+[params]
+    firstName = "Nabil"
+    middleName = "Sacha"
+    lastName = "El Masry"
+    address = "London, England"
+    phone = "+44 (0) 7947 992 342"
+    contactNote = "Dev Tools Engineer"
+    profileImage = "img/sacha-el-masry-Kingsly-square profile.jpg"
+    email = "sacha@elmasry.me"
+    description = "Business process automation specialist | Technology entrepreneur | Web developer | Software engineer | Tango dancer."
+    favicon = "images/favicon.ico"
+    # what sections
+    showSkills = false
+    showProjects = false
+    showOpenSource = false
+    showPublications = false
+    showExperience = false
+    showEducation = false
+
+    showQr = false
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/sacha-el-masry/"
+
+
+# [[params.handles]]
+#     name = "GitHub"
+#     link = "https://github.com/eddiewebb/"
