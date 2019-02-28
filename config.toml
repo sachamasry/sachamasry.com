@@ -13,7 +13,7 @@ theme = "hugo-resume"
     profileImage = "img/sacha-el-masry-Kingsly-square profile.jpg"
     email = "sacha@elmasry.me"
     description = "Business process automation specialist | Technology entrepreneur | Web developer | Software engineer | Tango dancer."
-    favicon = "images/favicon.ico"
+    favicon = "favicon/favicon.ico"
     # what sections
     showSkills = false
     showProjects = false
