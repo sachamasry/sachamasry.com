@@ -11,7 +11,7 @@ theme = "hugo-resume"
     phone = "+44 (0) 7947 992 342"
     contactNote = "Dev Tools Engineer"
     profileImage = "img/sacha-el-masry-Kingsly-square profile.jpg"
-    email = "sacha@elmasry.me"
+    email = "contact@sachamasry.com"
     description = "Business process automation specialist | Technology entrepreneur | Web developer | Software engineer | Tango dancer."
     favicon = "favicon/favicon.ico"
     # what sections
