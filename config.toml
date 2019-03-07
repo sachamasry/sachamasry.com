@@ -1,4 +1,4 @@
-baseURL = "https://www.elmasry.me/"
+baseURL = "https://sachamasry.com/"
 languageCode = "en-gb"
 title = "Sacha El Masry"
 theme = "hugo-resume"
