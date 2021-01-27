@@ -9,4 +9,4 @@ outputs:
 - rss
 - json
 ---
-<p>Business process automation specialist | Technology entrepreneur | Web developer | Software engineer | Tango dancer.</p>
+<p>Marketer | Business process automation specialist | Technology entrepreneur | Web developer | Tango dancer.</p>

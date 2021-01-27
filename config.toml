@@ -9,16 +9,17 @@ theme = "hugo-resume"
     lastName = "El Masry"
     address = "Toronto, Canada"
     phone = ""
-    contactNote = "Dev Tools Engineer"
+    contactNote = "Marketer"
     profileImage = "img/sacha-el-masry-Kingsly-square profile.jpg"
     email = "contact@sachamasry.com"
-    description = "Business process automation specialist | Technology entrepreneur | Web developer | Software engineer | Tango dancer."
+    description = "Marketer | Business process automation specialist | Technology entrepreneur | Web developer | Tango dancer."
     favicon = "favicon/favicon.ico"
     # what sections
     showSkills = false
     showProjects = false
     showOpenSource = false
     showPublications = false
+    showArticles = true
     showExperience = false
     showEducation = false
 
