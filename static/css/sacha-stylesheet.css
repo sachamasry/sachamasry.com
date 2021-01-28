@@ -1,4 +1,46 @@
 /* Sacha El Masry custom stylesheet */
+blockquote::before {
+    content: open-quote;
+}
+blockquote::after {
+    content: close-quote;
+}
+
+blockquote::before,
+blockquote::after {
+    font-size: 7rem;
+    font-weight: 900;
+    opacity: 0.2;
+    position: absolute;
+}
+blockquote::before {
+    left: 0;
+    transform: translateY(-30%);
+}
+blockquote::after {
+    right: 0;
+    transform: translateY(-40%);
+}
+
+q::before {
+    content: open-quote;
+}
+
+q::after {
+    content: close-quote;
+}
+
+blockquote {
+    border-left: none;
+    color: #5e239d;
+    font-family: "Lucida Bright",Perpetua,Times,serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 3rem 0;
+    padding: 0 4rem;
+    text-align: center;
+}
+
 .person-name--primary {
     font-weight: 700;
 }
@@ -27,3 +69,19 @@ a:hover, a:focus, a:active {
     color: #5e239d;
 }
 
+.external-embed__video-player {
+    display: block;
+    height: 0;
+    margin: 3rem auto;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.external-embed__youtube-video-player {
+    left: 0;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    width: 100%; 
+}
