@@ -85,3 +85,9 @@ a:hover, a:focus, a:active {
     position: absolute;
     width: 100%; 
 }
+
+hr {
+    border-color: #470063;
+    margin: 2.5rem auto;
+    width: 66%;
+}
