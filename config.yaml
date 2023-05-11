@@ -1,16 +1,16 @@
-baseURL: https://eternity.bora.sh # todo: change site url.
-title: Eternity # todo: change site name.
+baseURL: https://sachamasry.com
+title: Sacha El Masry
 defaultContentLanguage: 'en'
 theme: eternity
-googleAnalytics: '' # todo: set your analytics id.
+#googleAnalytics: '' # todo: set your analytics id.
 
 params:
   image: /images/banner.png
   logo: logo.png # todo: add your custom logo to static/
   subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
-  copyright: All rights reserved. # todo: set your copyright type.
-  author: Lovely Author # todo: set your full name.
-  dontShowSource: false # please, do not do this :)
+  copyright: All rights reserved. 
+  author: Sacha El Masry
+  dontShowSource: true # please, do not do this :)
   portfolio:
     columns:
       desktop:
@@ -21,6 +21,9 @@ params:
     # todo: add your social accounts.
     - icon: 'far fa-envelope fa-lg'
       url: 'mailto:eternity@bora.sh'
+      landing: true
+    - icon: 'fab fa-linkedin-in fa-lg'
+      url: 'https://www.linkedin.com/in/sachamasry/'
       landing: true
   # homepage: "/work" # todo: uncomment homepage, homepage link is mostly same with menu.main[0]
   specialPages:
