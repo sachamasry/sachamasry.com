@@ -14,6 +14,8 @@ params:
   portfolio:
     columns:
       desktop:
+        work: 3
+        logo: 3
         default: 3
       mobile:
         default: 2
@@ -25,10 +27,10 @@ params:
     - icon: 'fab fa-linkedin-in fa-lg'
       url: 'https://www.linkedin.com/in/sachamasry/'
       landing: true
-  # homepage: "/work" # todo: uncomment homepage, homepage link is mostly same with menu.main[0]
+  homepage: "/work" # todo: uncomment homepage, homepage link is mostly same with menu.main[0]
   specialPages:
     - work
-    - archive
+    - articles
   bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
   plausible: '' # todo: set your plausible id.
   disableWelcomePageBackground: false # disables the background image on the homepage
@@ -49,8 +51,11 @@ permalinks:
   work: ":filename/"
 
 # todo: uncomment menu.main array after you create contents.
-# menu:
-#   main:
-#     - name: work
-#       url: /work/
-#       weight: 1
+menu:
+  main:
+    - name: work
+      url: /work/
+      weight: 1
+    - name: logo
+      url: /tags/logo
+      weight: 9
