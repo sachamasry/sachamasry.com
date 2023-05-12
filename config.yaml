@@ -15,7 +15,8 @@ params:
     columns:
       desktop:
         work: 3
-        logo: 2
+        video: 3
+        logo: 3
         default: 3
       mobile:
         default: 2
@@ -56,10 +57,16 @@ menu:
     - name: Work
       url: /work/
       weight: 1
+    - name: Video production
+      url: /tags/video
+      weight: 80
+    - name: Print design
+      url: /tags/print
+      weight: 85
     - name: Logo design
       url: /tags/logo
-      weight: 9
+      weight: 90
     - name: Infographics
       url: /tags/infographic
-      weight: 16
+      weight: 100
 

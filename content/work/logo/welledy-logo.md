@@ -1,5 +1,5 @@
 ---
-weight: 8
+weight: 12
 images:
 - /images/logos/Welledy_banner_logo-white-bg.jpg
 - /images/logos/2020-04-Welledy_business_card-v2_0-HB.jpg
