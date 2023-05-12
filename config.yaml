@@ -15,7 +15,7 @@ params:
     columns:
       desktop:
         work: 3
-        logo: 3
+        logo: 2
         default: 3
       mobile:
         default: 2
@@ -53,9 +53,13 @@ permalinks:
 # todo: uncomment menu.main array after you create contents.
 menu:
   main:
-    - name: work
+    - name: Work
       url: /work/
       weight: 1
-    - name: logo
+    - name: Logo design
       url: /tags/logo
       weight: 9
+    - name: Infographics
+      url: /tags/infographic
+      weight: 16
+
