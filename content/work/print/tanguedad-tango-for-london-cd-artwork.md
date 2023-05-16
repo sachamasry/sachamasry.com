@@ -1,5 +1,5 @@
 ---
-weight: 25
+weight: 75
 images:
 - /images/print/Tanguedad-Tango_for_London-CD_artwork.jpg
 hideExif: true

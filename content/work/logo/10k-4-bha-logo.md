@@ -1,5 +1,5 @@
 ---
-weight: 12
+weight: 92
 images:
 - /images/logos/10k_4_BHA_2018_logo-white_background.jpg
 hideExif: true

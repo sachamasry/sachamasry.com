@@ -1,5 +1,5 @@
 ---
-weight: 27
+weight: 77
 images:
 - /images/print/Rojo_y_Negro-2016-03-24-Tango_on_Battersea_Barge.jpg
 hideExif: true

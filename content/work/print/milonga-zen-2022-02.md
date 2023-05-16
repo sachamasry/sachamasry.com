@@ -1,5 +1,5 @@
 ---
-weight: 22
+weight: 72
 images:
 - /images/print/Milonga_ZEN-2022-02-Valentines_milonga.jpg
 hideExif: true

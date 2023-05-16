@@ -1,5 +1,5 @@
 ---
-weight: 27
+weight: 77
 images:
 - /images/print/Rojo_y_Negro-loyalty_cards-2012.jpg
 hideExif: true

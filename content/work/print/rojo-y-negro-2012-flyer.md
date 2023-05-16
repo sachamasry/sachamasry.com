@@ -1,5 +1,5 @@
 ---
-weight: 27
+weight: 77
 images:
 - /images/print/Rojo_y_Negro-2012-flyer.jpg
 hideExif: true

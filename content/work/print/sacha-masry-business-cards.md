@@ -1,5 +1,5 @@
 ---
-weight: 24
+weight: 74
 images:
 - /images/print/SM-business_cards.jpg
 hideExif: true

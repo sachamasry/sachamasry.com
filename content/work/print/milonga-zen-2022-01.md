@@ -1,5 +1,5 @@
 ---
-weight: 22
+weight: 72
 images:
 - /images/print/Milonga_ZEN-2022-01-Filipeli_farewell_party.jpg
 hideExif: true

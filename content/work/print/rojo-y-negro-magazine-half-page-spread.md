@@ -1,5 +1,5 @@
 ---
-weight: 20
+weight: 60
 images:
 - /images/print/Rojo_y_Negro-magazine_half-page_spread.jpg
 hideExif: true

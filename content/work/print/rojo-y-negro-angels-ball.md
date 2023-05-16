@@ -1,5 +1,5 @@
 ---
-weight: 20
+weight: 70
 images:
 - /images/print/Rojo_y_Negro-Angels_Ball-flyer.jpg
 hideExif: true

@@ -1,5 +1,5 @@
 ---
-weight: 10
+weight: 90
 images:
 - /images/logos/TangoRojo_2009_logo-text_white_background.jpg
 - /images/logos/TangoRojo_2010_logo.png

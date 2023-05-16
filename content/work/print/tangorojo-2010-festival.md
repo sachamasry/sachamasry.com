@@ -1,5 +1,5 @@
 ---
-weight: 20
+weight: 70
 images:
 - /images/print/TangoRojo-2010_festival_flyer.jpg
 hideExif: true

@@ -1,5 +1,5 @@
 ---
-weight: 15
+weight: 95
 images:
 - /images/logos/Homeopathy_at_Home-course_logo-white_bg.jpg
 hideExif: true
