@@ -23,7 +23,7 @@ params:
   socials:
     # todo: add your social accounts.
     - icon: 'far fa-envelope fa-lg'
-      url: 'mailto:eternity@bora.sh'
+      url: 'mailto:sacha@sachamasry.com'
       landing: true
     - icon: 'fab fa-linkedin-in fa-lg'
       url: 'https://www.linkedin.com/in/sachamasry/'
@@ -57,6 +57,9 @@ menu:
     - name: Work
       url: /work/
       weight: 1
+    - name: Websites
+      url: /tags/web-design
+      weight: 10
     - name: Infographics
       url: /tags/infographic
       weight: 50
@@ -66,6 +69,9 @@ menu:
     - name: Print design
       url: /tags/print
       weight: 70
+    - name: Web applications
+      url: /tags/web-application
+      weight: 80
     - name: Video production
       url: /tags/video
       weight: 100
