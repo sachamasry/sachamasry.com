@@ -1,7 +1,7 @@
 baseURL: https://sachamasry.com
 title: Sacha El Masry
 defaultContentLanguage: 'en'
-theme: eternity
+theme: ["hugo-video", "eternity"]
 #googleAnalytics: '' # todo: set your analytics id.
 
 params:
