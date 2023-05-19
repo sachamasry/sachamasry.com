@@ -32,6 +32,9 @@ to generate new leads from viewers of the film for the company's other services.
 {{<figure src="/img/websites/Magic_Pills-blog.jpg" title="Blog post article listing page">}}
 {{<figure src="/img/websites/Magic_Pills-article_1.jpg" title="Example article">}}
 {{<figure src="/img/websites/Magic_Pills-article_2.jpg" title="Example article">}}
+
+{{<figure src="/img/websites/Magic_Pills-author_and_article_list.jpg"
+title="Author biography and author's articles">}}
 {{<figure src="/img/websites/Magic_Pills-article_navigation.jpg" title="Inter-article navigation">}}
 
 {{<figure src="/img/websites/Magic_Pills-movie_streaming.jpg" title="Simplified, distraction-free movie streaming page">}}
