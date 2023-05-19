@@ -24,7 +24,7 @@ to generate new leads from viewers of the film for the company's other services.
 {{<figure src="/img/websites/Magic_Pills-about_the_film.jpg" title="About the film">}}
 {{<figure src="/img/websites/Magic_Pills-cast.jpg" title="The cast">}}
 {{<figure src="/img/websites/Magic_Pills-crew.jpg" title="Film crew">}}
-{{<figure src="/img/websites/Magic_Pills-testimonials.jpg" title="Film testimonials">}}
+{{<figure src="/img/websites/Magic_Pills-testimonial_carousel_animation.gif" title="Film testimonials carousel animation">}}
 
 {{<figure src="/img/websites/Magic_Pills-dvd.jpg" title="DVD marketing banner">}}
 {{<figure src="/img/websites/Magic_Pills-buy_dvd.jpg" title="DVD sales page">}}
