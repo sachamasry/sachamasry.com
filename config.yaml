@@ -4,10 +4,17 @@ defaultContentLanguage: 'en'
 theme: ["hugo-video", "eternity"]
 #googleAnalytics: '' # todo: set your analytics id.
 
+server:
+  headers:
+    - for: "/*"
+      values:
+        Content-Security-Policy: "*"
+        Access-Control-Allow-Origin: "*"
+
 params:
   image: /images/banner.png
   logo: logo.png # todo: add your custom logo to static/
-  subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
+  subtitle: Web developer | Marketer | Business process automation specialist | Technology entrepreneur
   copyright: All rights reserved. 
   author: Sacha El Masry
   dontShowSource: true # please, do not do this :)

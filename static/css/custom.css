@@ -61,13 +61,13 @@ blockquote {
     color: #5e239d !important;
 }
 
-a {
-    color: #ef0381;
-}
+/* a { */
+/*     color: #ef0381; */
+/* } */
 
-a:hover, a:focus, a:active {
-    color: #5e239d;
-}
+/* a:hover, a:focus, a:active { */
+/*     color: #5e239d; */
+/* } */
 
 .external-embed__video-player {
     display: block;
@@ -90,4 +90,10 @@ hr {
     border-color: #470063;
     margin: 2.5rem auto;
     width: 66%;
+}
+
+.welcome-title {
+    font-family: 'Alegreya', serif;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
 }
