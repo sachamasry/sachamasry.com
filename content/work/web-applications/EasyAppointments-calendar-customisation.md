@@ -1,5 +1,5 @@
 ---
-weight: 60
+weight: 125
 images:
 - /images/web-applications/EasyAppointments-screen_1.jpg
 - /images/web-applications/EasyAppointments-screen_2.jpg

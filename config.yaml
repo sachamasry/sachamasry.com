@@ -60,6 +60,9 @@ menu:
     - name: Websites
       url: /tags/web-design
       weight: 10
+    - name: Web applications
+      url: /tags/web-application
+      weight: 20
     - name: Infographics
       url: /tags/infographic
       weight: 50
@@ -69,9 +72,6 @@ menu:
     - name: Print design
       url: /tags/print
       weight: 70
-    - name: Web applications
-      url: /tags/web-application
-      weight: 80
     - name: Video production
       url: /tags/video
       weight: 100
