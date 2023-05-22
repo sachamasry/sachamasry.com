@@ -20,13 +20,15 @@ nav.navbar {
     /* background: transparent; */
 }
 
+.footer {
+    border-top: 1px solid var(--purple);
+}
+
 @media screen and (min-width: 1024px) {
-    body {
-        padding-top: 0.5rem;
-    }
     .navbar {
         border-radius: 1.75rem;
         padding-bottom: 1em;
+        top: 0.75rem;
     }
     .navbar-start {
         margin-left: 1rem;
@@ -47,6 +49,24 @@ nav.navbar {
     font-size: 1.1875rem;
     font-weight: 200;
     letter-spacing: 0.1rem;
+}
+
+.subtitle,
+.contact-details {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.subtitle {
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.contact-details {
+    font-size: 1.3125rem;
 }
 
 blockquote::before {
@@ -83,12 +103,16 @@ q::after {
 blockquote {
     border-left: none;
     color: #5e239d;
-    font-family: "Lucida Bright",Perpetua,Times,serif;
+    font-family: "Alegreya", "Lucida Bright", Perpetua, Times, serif;
     font-size: 1.5rem;
     font-style: italic;
     margin: 3rem 0;
     padding: 0 4rem;
     text-align: center;
+}
+
+.content blockquote {
+    background: var(--dark);
 }
 
 .person-name--primary {
@@ -158,6 +182,7 @@ hr {
 
 .site-entry-button {
     font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 200;
     letter-spacing: 0.15rem;
     text-transform: uppercase;
 }

@@ -1,5 +1,5 @@
 ---
-weight: 86
+weight: 122
 images:
 - /images/print/Homeopathy_at_Home-Course_schedule-June_2021.jpg
 hideExif: true

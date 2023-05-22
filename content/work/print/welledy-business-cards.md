@@ -1,5 +1,5 @@
 ---
-weight: 88
+weight: 125
 images:
 - /images/print/Welledy-business_card-v2_0-front.jpg
 - /images/print/Welledy_business_card-v2_0-rear.jpg

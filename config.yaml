@@ -14,7 +14,7 @@ server:
 params:
   image: /images/banner.svg
   logo: logo.png # todo: add your custom logo to static/
-  subtitle: "Web developer | Marketer | Business process automation specialist | Technology entrepreneur"
+  subtitle: "Web developer | Marketer | Business process automation | Technology entrepreneur"
   copyright: All rights reserved. 
   author: Sacha El Masry
   dontShowSource: true # please, do not do this :)
