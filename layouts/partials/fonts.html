@@ -87,7 +87,23 @@
         font-style: italic;
     }
 
-    body {
-        font-family: "Alegreya";
+    @font-face {
+        font-family: "Alegreya Sans SC";
+        src: url({{ "/fonts/alegreya-sans-ht-full-pack-webfonts/AlegreyaSansSC-Regular.woff2" }}) format('woff2'),
+        url({{ "/fonts/alegreya-sans-ht-full-pack-webfonts/AlegreyaSansSC-Regular.woff" }}) format('woff');
+        font-weight: normal;
+        font-style: normal;
     }
+
+    @font-face {
+        font-family: 'Alegreya Sans SC Bold';
+        src: url({{ "/fonts/alegreya-sans-ht-full-pack-webfonts/AlegreyaSansSC-Bold.woff2" }}) format('woff2'),
+        url({{ "/fonts/alegreya-sans-ht-full-pack-webfonts/AlegreyaSansSC-Bold.woff" }}) format('woff');
+        font-weight: bold;
+        font-style: normal;
+    }
+
+ body {
+     font-family: "Alegreya";
+ }
 </style>

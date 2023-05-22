@@ -1,4 +1,27 @@
 /* Sacha El Masry custom stylesheet */
+
+html {
+    background: var(--dark);
+}
+
+body {
+    background: var(--dark-bg-gradient);
+    font-family: "Alegreya", serif;
+    font-size: 16px;
+}
+
+body,
+.slide-info
+    {
+        font-size: 1.1875rem;
+    }
+
+.menu {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.1875rem;
+    letter-spacing: 0.1rem;
+}
+
 blockquote::before {
     content: open-quote;
 }
@@ -93,7 +116,33 @@ hr {
 }
 
 .welcome-title {
-    font-family: 'Alegreya', serif;
+    letter-spacing: 0.15rem;
+}
+
+.welcome-title,
+.footer__copyright-notice {
+    text-transform: uppercase;
+}
+
+.footer__copyright-notice {
+    letter-spacing: 0.05rem;
+    font-size: 0.875rem;
+}
+
+.site-entry-button {
+    font-family: 'Alegreya Sans SC', sans-serif;
     letter-spacing: 0.15rem;
     text-transform: uppercase;
+}
+
+.enter > .button {
+    width: unset;
+}
+
+button.site-entry-button:hover {
+    background-color: var(--main-light);
+}
+
+.navigation__item-divider {
+    color: orange;
 }

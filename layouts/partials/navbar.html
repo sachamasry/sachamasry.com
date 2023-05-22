@@ -23,7 +23,7 @@
                             {{ $active = "active" }}
                         {{ end }}
                         <a class="{{ $active }}" href="{{ $el.URL }}">{{ $el.Name }}</a>
-                        {{ if ne $i $lastIndex }} / {{ end }}
+                        {{ if ne $i $lastIndex }} <span class="navigation__item-divider">/</span> {{ end }}
                     {{ end }}
                 </div>
             {{ end }}

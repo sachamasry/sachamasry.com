@@ -12,9 +12,9 @@ server:
         Access-Control-Allow-Origin: "*"
 
 params:
-  image: /images/banner.png
+  image: /images/banner.svg
   logo: logo.png # todo: add your custom logo to static/
-  subtitle: Web developer | Marketer | Business process automation specialist | Technology entrepreneur
+  subtitle: "Web developer | Marketer | Business process automation specialist | Technology entrepreneur"
   copyright: All rights reserved. 
   author: Sacha El Masry
   dontShowSource: true # please, do not do this :)
@@ -61,25 +61,25 @@ permalinks:
 # todo: uncomment menu.main array after you create contents.
 menu:
   main:
-    - name: Work
+    - name: work
       url: /work/
       weight: 1
-    - name: Websites
+    - name: websites
       url: /tags/web-design
       weight: 10
-    - name: Web applications
+    - name: web applications
       url: /tags/web-application
       weight: 20
-    - name: Infographics
+    - name: infographics
       url: /tags/infographic
       weight: 50
-    - name: Logo design
+    - name: logo design
       url: /tags/logo
       weight: 60
-    - name: Print design
+    - name: print design
       url: /tags/print
       weight: 70
-    - name: Video production
+    - name: video production
       url: /tags/video
       weight: 100
 
