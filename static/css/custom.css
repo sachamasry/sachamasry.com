@@ -16,9 +16,36 @@ body,
         font-size: 1.1875rem;
     }
 
+nav.navbar {
+    /* background: transparent; */
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        padding-top: 0.5rem;
+    }
+    .navbar {
+        border-radius: 1.75rem;
+        padding-bottom: 1em;
+    }
+    .navbar-start {
+        margin-left: 1rem;
+    }
+    .logo {
+        width: 5rem;
+    }
+    .navbar-middle {
+        position: relative;
+    }
+    .navbar-end {
+        margin-right: 1rem;
+    }
+}
+
 .menu {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 1.1875rem;
+    font-weight: 200;
     letter-spacing: 0.1rem;
 }
 
