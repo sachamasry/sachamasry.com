@@ -8,7 +8,7 @@ url: work
         I design and develop products with elegant typography, bold colours, and modern technologies.
 	</p>
 	<p>
-		I'm driven by the design of beautiful creations, marketing products and services that make a difference, and making technology easier for all to use through better User Experiences (UX).
+		I'm driven by design of beautiful creations, marketing products and services that make a difference, and making technology easier for all to use through better User Experiences (UX).
 	</p>
 </div>
 
