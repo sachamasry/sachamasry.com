@@ -14,7 +14,7 @@ server:
 params:
   image: /images/banner.svg
   logo: logo.png # todo: add your custom logo to static/
-  subtitle: "Web developer | Marketer | Business process automation | Technology entrepreneur"
+  subtitle: ""
   copyright: All rights reserved. 
   author: Sacha El Masry
   dontShowSource: true # please, do not do this :)
@@ -30,7 +30,7 @@ params:
   socials:
     # todo: add your social accounts.
     - icon: 'far fa-envelope fa-lg'
-      url: 'mailto:sacha@sachamasry.com'
+      url: 'mailto:contact@sachamasry.com'
       landing: true
     - icon: 'fab fa-linkedin-in fa-lg'
       url: 'https://www.linkedin.com/in/sachamasry/'

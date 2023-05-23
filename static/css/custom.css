@@ -19,6 +19,11 @@ body,
 nav.navbar {
     /* background: transparent; */
     background-color: rgba(var(--dark-rgb), 0.8);
+    border: 1px solid var(--purple);
+}
+
+.hero .navbar {
+    border: none;
 }
 
 .footer {
@@ -27,13 +32,12 @@ nav.navbar {
 
 @media screen and (min-width: 1024px) {
     .navbar {
-        border: 1px solid var(--purple);
         border-radius: 1.75rem;
         padding-bottom: 1em;
         top: 0.75rem;
     }
     .navbar-start {
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
     .logo {
         width: 5rem;
@@ -42,7 +46,7 @@ nav.navbar {
         position: relative;
     }
     .navbar-end {
-        margin-right: 1rem;
+        margin-right: 2rem;
     }
 }
 
@@ -65,6 +69,20 @@ nav.navbar {
     color: white;
     font-size: 1.5rem;
     text-transform: uppercase;
+}
+
+.skill-highlight {
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+
+.personal-summary {
+    /* font-style: italic; */
+    font-size: 1.3125rem;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
 }
 
 .contact-details {

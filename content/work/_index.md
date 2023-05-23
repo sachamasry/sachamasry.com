@@ -3,26 +3,25 @@ title: work
 url: work
 ---
 
-<div align="center">
+<divj>
 	<p>
-        Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel.
+        I design and develop products with elegant typography, bold colours, and modern technologies.
 	</p>
 	<p>
-		This is demo site for <strong>Eternity</strong> theme. All images are taken from Unsplash.
+		I'm driven by the design of beautiful creations, marketing products and services that make a difference, and making technology easier for all to use through better User Experiences (UX).
 	</p>
 </div>
 
-#### Features
+### Key Skills
 
-- **Configurable** features.
+- Full-stack web development
 
-- **Multiple images** support.
+- Strong knowledge of HTML and CSS
 
-- Clean, fresh, **minimalist**.
+- Building of complex web applications
 
-- Integrated **lazy load**.
+- Logo design, style guide creation, print document preparation
 
-- Automatically creates **resized** thumbnails.
+- Video production, editing and colouring
 
-- Shows **exif** if it exists.
-
+- Improving client presence and profitability through Strategic Relationship Marketing
