@@ -1,5 +1,5 @@
 <div class="slider" id="slider">
-	{{ range $i, $post := ($.Get "articles") }}
+	{{ range $i, $post := ($.Get "posts") }}
 	    {{ partial "slides/slide.html" (dict "disableFullheight" false "ctx" $post) }}
 	{{ end }}
 	<div id="arrow" class="down-arrow"></div>
