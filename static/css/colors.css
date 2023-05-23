@@ -1,0 +1,11 @@
+:root {
+    --main: #DB3080;
+    --main-light: #db6ea1;
+    --dark: #100118;
+    --dark-rgb: 16, 1, 24;
+    --dark-bg-gradient: linear-gradient(300deg, rgba(16,1,24,1) 0%, rgba(34,10,55,1) 100%);
+    --dark-light: #101010;
+    --white: #eee;
+    --grey: rgb(169, 169, 169);
+    --purple: #5e239d;
+}

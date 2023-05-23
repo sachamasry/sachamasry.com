@@ -1,0 +1,220 @@
+/* Sacha El Masry custom stylesheet */
+
+html {
+    background: var(--dark);
+}
+
+body {
+    background: var(--dark-bg-gradient);
+    font-family: "Alegreya", serif;
+    font-size: 16px;
+}
+
+body,
+.slide-info
+    {
+        font-size: 1.1875rem;
+    }
+
+nav.navbar {
+    /* background: transparent; */
+    background-color: rgba(var(--dark-rgb), 0.8);
+    border: 1px solid var(--purple);
+}
+
+.hero .navbar {
+    border: none;
+}
+
+.footer {
+    border-top: 1px solid var(--purple);
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar {
+        border-radius: 1.75rem;
+        padding-bottom: 1em;
+        top: 0.75rem;
+    }
+    .navbar-start {
+        margin-left: 2rem;
+    }
+    .logo {
+        width: 5rem;
+    }
+    .navbar-middle {
+        position: relative;
+    }
+    .navbar-end {
+        margin-right: 2rem;
+    }
+}
+
+.menu {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.1875rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+}
+
+.subtitle,
+.contact-details {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.subtitle {
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.skill-highlight {
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+
+.personal-summary {
+    /* font-style: italic; */
+    font-size: 1.3125rem;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.contact-details {
+    font-size: 1.3125rem;
+}
+
+blockquote::before {
+    content: open-quote;
+}
+blockquote::after {
+    content: close-quote;
+}
+
+blockquote::before,
+blockquote::after {
+    font-size: 7rem;
+    font-weight: 900;
+    opacity: 0.2;
+    position: absolute;
+}
+blockquote::before {
+    left: 0;
+    transform: translateY(-30%);
+}
+blockquote::after {
+    right: 0;
+    transform: translateY(-40%);
+}
+
+q::before {
+    content: open-quote;
+}
+
+q::after {
+    content: close-quote;
+}
+
+blockquote {
+    border-left: none;
+    color: #5e239d;
+    font-family: "Alegreya", "Lucida Bright", Perpetua, Times, serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 3rem 0;
+    padding: 0 4rem;
+    text-align: center;
+}
+
+.content blockquote {
+    background: var(--dark);
+}
+
+.person-name--primary {
+    font-weight: 700;
+}
+
+.person-name--secondary {
+    font-weight: 100;
+}
+
+.list-social-icons a:hover {
+    color: #470063;
+}
+
+.bg-primary {
+    background-color: #470063 !important;
+}
+
+.text-primary {
+    color: #5e239d !important;
+}
+
+/* a { */
+/*     color: #ef0381; */
+/* } */
+
+/* a:hover, a:focus, a:active { */
+/*     color: #5e239d; */
+/* } */
+
+.external-embed__video-player {
+    display: block;
+    height: 0;
+    margin: 3rem auto;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.external-embed__youtube-video-player {
+    left: 0;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    width: 100%; 
+}
+
+hr {
+    border-color: #470063;
+    margin: 2.5rem auto;
+    width: 66%;
+}
+
+.welcome-title {
+    letter-spacing: 0.15rem;
+}
+
+.welcome-title,
+.footer__copyright-notice {
+    text-transform: uppercase;
+}
+
+.footer__copyright-notice {
+    letter-spacing: 0.05rem;
+    font-size: 0.875rem;
+}
+
+.site-entry-button {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+}
+
+.enter > .button {
+    width: unset;
+}
+
+button.site-entry-button:hover {
+    background-color: var(--main-light);
+}
+
+.navigation__item-divider {
+    color: orange;
+}

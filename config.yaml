@@ -1,0 +1,85 @@
+baseURL: https://sachamasry.com
+title: Sacha El Masry
+defaultContentLanguage: 'en'
+theme: ["hugo-video", "eternity"]
+#googleAnalytics: '' # todo: set your analytics id.
+
+server:
+  headers:
+    - for: "/*"
+      values:
+        Content-Security-Policy: "*"
+        Access-Control-Allow-Origin: "*"
+
+params:
+  image: /images/banner.svg
+  logo: logo.png # todo: add your custom logo to static/
+  subtitle: ""
+  copyright: All rights reserved. 
+  author: Sacha El Masry
+  dontShowSource: true # please, do not do this :)
+  portfolio:
+    columns:
+      desktop:
+        work: 3
+        video: 3
+        logo: 3
+        default: 3
+      mobile:
+        default: 2
+  socials:
+    # todo: add your social accounts.
+    - icon: 'far fa-envelope fa-lg'
+      url: 'mailto:contact@sachamasry.com'
+      landing: true
+    - icon: 'fab fa-linkedin-in fa-lg'
+      url: 'https://www.linkedin.com/in/sachamasry/'
+      landing: true
+  homepage: "/work" # todo: uncomment homepage, homepage link is mostly same with menu.main[0]
+  specialPages:
+    - work
+    - articles
+  bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
+  plausible: '' # todo: set your plausible id.
+  disableWelcomePageBackground: false # disables the background image on the homepage
+  disableRadius: false
+  moveIt: false # Moves Title and Meta info down, only visible when scroll.
+  disableAlwaysResize: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  work: ":filename/"
+
+# todo: uncomment menu.main array after you create contents.
+menu:
+  main:
+    - name: work
+      url: /work/
+      weight: 1
+    - name: websites
+      url: /tags/web-design
+      weight: 10
+    - name: web applications
+      url: /tags/web-application
+      weight: 20
+    - name: infographics
+      url: /tags/infographic
+      weight: 50
+    - name: logo design
+      url: /tags/logo
+      weight: 60
+    - name: print design
+      url: /tags/print
+      weight: 70
+    - name: video production
+      url: /tags/video
+      weight: 100
+

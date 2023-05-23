@@ -1,36 +1,55 @@
-{{ define "main" }}
-   {{ partial "about.html" .}}
-   {{ if .Site.Params.showSkills }}
-       {{ partial "portfolio/skills.html" . }}
-   {{ end }}
-   {{ if .Site.Params.showProjects }}
-      {{ with .Site.GetPage "section" "projects/creations" }}
-         {{ .Scratch.Set "sectionId" "projects" }}
-         {{ partial "sectionSummary" . }}
-      {{ end }}
-   {{ end }}
-   {{ if .Site.Params.showOpenSource }}
-      {{ with .Site.GetPage "section" "projects/contributions" }}
-         {{ .Scratch.Set "sectionId" "open" }}
-         {{ partial "sectionSummary" . }}
-      {{ end }}
-   {{ end }}
-   {{ if .Site.Params.showPublications }}
-      {{ with .Site.GetPage "section" "publications" }}
-         {{ .Scratch.Set "sectionId" "publications" }}
-         {{ partial "sectionSummary" . }}
-      {{ end }}
-   {{ end }}
-   {{ if .Site.Params.showExperience }}
-       {{ partial "portfolio/experience.html" . }}
-   {{ end }}
-   {{ if .Site.Params.showEducation }}
-       {{ partial "portfolio/education.html" . }}
-   {{ end }}
-   {{ if .Site.Params.showBlog }}
-      {{ with .Site.GetPage "section" "blog" }}
-         {{ .Scratch.Set "sectionId" "blog" }}
-         {{ partial "sectionSummary" . }}
-      {{ end }}
-   {{ end }}
+{{ partial "header.html" . }}
+
+{{ if .Site.Params.BypassWelcomePage }}
+<head>
+	<meta http-equiv="refresh" content="0; URL={{ relref . .Site.Params.Homepage }}" />
+</head>
+{{ else }}
+<section class="hero is-fullheight welcome"
+  {{ if not .Site.Params.DisableWelcomePageBackground }} style="background-image: url({{ "background.svg" | absURL }});" {{ end }}>
+	{{ partial "navbar.html" . }}
+	<div class="hero-body has-text-centered">
+		<div class="container">
+        <div class="subtitle">{{ .Site.Params.subtitle }}</div>
+
+        <div class="personal-summary">I'm a <span style="color: #C92CAC;" class="skill-highlight">website designer</span>, full-stack <span style="color: #9A91DE;" class="skill-highlight">web developer</span>, <span style="color: #256EFF;" class="skill-highlight">digital marketer</span>, <span style="color: #00B2CA;" class="skill-highlight">video editor</span> and <span style="color: #F79256;" class="skill-highlight">colourist</span>, <span style="color: #E55381;" class="skill-highlight">print designer</span> and <span style="color: #3DDC97;" class="skill-highlight">CSS</span> specialist.</div>
+
+        <div class="contact-details">
+            <span class="contact-details__email"><a href="mailto:contact@sachamasry.com">contact@sachamasry.com</a></span> · <span class="contact-details__linkedin"><a href="https://linkedin.com/in/sachamasry">linkedin.com/in/sachamasry</a></span>
+        </div>
+
+				<button onclick="window.location.href='{{ relref . .Site.Params.Homepage }}'"
+				        class="button is-white is-outlined site-entry-button ">See my work</button>
+			</div>
+			{{ with .Site.Params.FeaturedTags }}
+				<div class="columns is-mobile is-multiline">
+					{{ range . }}
+						<div class="column">
+							<a href="{{ .url }}">
+								<div class="image-box">
+									{{ $scratch := newScratch }}
+									{{ $row := dict "images" (slice .image) }}
+									{{ partial "helpers/get" (dict "scratch" $scratch "row" $row) }}
+									{{ $image := $scratch.Get "img" }}
+									{{ with $image }}
+									<img src="{{ $image.RelPermalink }}" loading="lazy" />
+									{{end}}
+								</div>
+								<p>{{ .title }}</p>
+							</a>
+						</div>
+					{{ end }}
+				</div>
+			{{ end }}
+			{{ range $d := .Params.Desc }}
+				<p>{{ $d }}</p>
+			{{ end }}
+		</div>
+	</div>
+	<div class="welcome-end">
+		{{ partial "footer_base.html" . }}
+	</div>
+</section>
 {{ end }}
+
+{{ partial "footer.html" . }}
