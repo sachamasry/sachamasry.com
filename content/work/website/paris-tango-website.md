@@ -1,5 +1,5 @@
 ---
-weight: 125
+weight: 120
 images:
 - /images/websites/Paris_Tango-ATF.jpg
 hideExif: true

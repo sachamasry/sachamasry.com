@@ -1,5 +1,5 @@
 ---
-weight: 93
+weight: 123
 images:
 - /images/logos/Rojo_y_Negro-3d_logo-high_resolution.jpg
 - /images/logos/Rojo_y_Negro-logo_spot-plain_background-0082.jpg

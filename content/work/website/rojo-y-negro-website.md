@@ -1,5 +1,5 @@
 ---
-weight: 122
+weight: 120
 images:
 - /images/websites/Rojo_y_Negro-website-ATF.jpg
 hideExif: true

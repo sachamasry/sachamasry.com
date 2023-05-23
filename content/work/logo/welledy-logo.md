@@ -1,5 +1,5 @@
 ---
-weight: 122
+weight: 125
 images:
 - /images/logos/Welledy_banner_logo-white-bg.jpg
 hideExif: true

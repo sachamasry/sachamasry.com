@@ -18,6 +18,7 @@ body,
 
 nav.navbar {
     /* background: transparent; */
+    background-color: rgba(var(--dark-rgb), 0.8);
 }
 
 .footer {
@@ -26,6 +27,7 @@ nav.navbar {
 
 @media screen and (min-width: 1024px) {
     .navbar {
+        border: 1px solid var(--purple);
         border-radius: 1.75rem;
         padding-bottom: 1em;
         top: 0.75rem;

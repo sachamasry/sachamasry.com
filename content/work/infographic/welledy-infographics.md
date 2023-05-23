@@ -1,5 +1,5 @@
 ---
-weight: 125
+weight: 126
 images:
 - /images/infographics/Welledy-six_foundations_process_diagram.jpg
 - /images/infographics/Welledy-six_foundations_method_diagram.jpg

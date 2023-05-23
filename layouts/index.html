@@ -10,10 +10,11 @@
 	{{ partial "navbar.html" . }}
 	<div class="hero-body has-text-centered">
 		<div class="container">
+        <div class="subtitle">{{ .Site.Params.subtitle }}</div>
+
         <div class="contact-details">
             <span class="contact-details__email">contact@sachamasry.com</span> · <span class="contact-details__linkedin"><a href="https://linkedin.com/in/sachamasry">linkedin.com/in/sachamasry</a></span>
         </div>
-        <div class="subtitle">{{ .Site.Params.subtitle }}</div>
 
 				<button onclick="window.location.href='{{ relref . .Site.Params.Homepage }}'"
 				        class="button is-white is-outlined site-entry-button ">portfolio</button>

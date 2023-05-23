@@ -1,5 +1,5 @@
 ---
-weight: 126
+weight: 122
 images:
 - /images/websites/Health_and_Homeopathy-ATF.jpg
 hideExif: true
