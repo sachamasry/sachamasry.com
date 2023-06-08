@@ -9,6 +9,9 @@ tags:
 - work
 - archive # all posts
 - web-application
+- typography
+- style-guide
+- user-interface-design
 ---
 
 ## Design of a full garment manufacturing system
