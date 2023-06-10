@@ -3,7 +3,7 @@ weight: 124
 images:
 - /images/web-applications/action-task_list.jpg
 - /images/web-applications/action-task_notes.jpg
-mainImage: /images/web-applications/action-task_diptych.jpg
+mainImage: /images/web-applications/action-masthead.jpg
 multipleColumn: true
 hideExif: true
 title: Task management
