@@ -14,7 +14,8 @@ tags:
 - web-application
 - typography
 - typesetting
-- user-interface-design
+- UI design
+- UX
 ---
 
 ## Specialised task management system
