@@ -16,16 +16,18 @@ tags:
 
 ## Health product manufacturer marketing dashboard
 
-This manufacturer of natural health-related products wanted to increase their
-revenue, number of clients and geographic reach. While they sell predominantly
-online through a prominent ecommerce platform collecting much valuable
-information, the stakeholders had little insight into the state of their
-business.
+A manufacturer of natural health-related products set a direction to increase
+their revenue, number of clients, and expand their geographic reach. While they
+sell their products mainly online, through a prominent ecommerce platform
+collecting much valuable information, at the start the stakeholders had little
+insight into the actual state of the business. Also, they had few immediately
+actionable insights they could act upon, beyond intuitive reasoning.
 
 Having connected to their platform's data, manipulating it into an easily
-anaysable dataset, I proceeded to design for them a sales and marketing
-_dashboard_, showing them their state at any time. This dashboard was split into
-five sections, providing different levels of data:
+analysable dataset, I proceeded to design a sales and marketing _dashboard_,
+showing them the state of the business at any time. 
+
+I split the dashboard into five sections, providing different levels of data:
 
 - general metrics
 - sales revenue
@@ -33,11 +35,14 @@ five sections, providing different levels of data:
 - geographic reach
 - strategic marketing: customer segmentation
 
-The end result was that this dashboard gave the company a way to measure their
-progress, to set goals and determine whether and how well they were being met.
-Crucially, through segmentation of their customer base, they could now market
-special offers more selectively, better customising the message to the target
-segment and later monitoring the effect of these marketing efforts.
+
+In the end, this dashboard gave the company a way to easily see progress, to set
+goals and determine whether and how well they were meeting them on a monthly
+basis. Crucially, through segmentation of their customer base, they could now
+market special offers more selectively to the existing customer base, better
+customising the message to the target segment while monitoring the effects
+of these marketing efforts.
+
 
 ### General metrics
 
