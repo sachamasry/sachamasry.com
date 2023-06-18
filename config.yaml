@@ -21,10 +21,11 @@ params:
   portfolio:
     columns:
       desktop:
+        default: 3
         work: 3
         video: 3
         logo: 3
-        default: 3
+        marketing: 2
       mobile:
         default: 2
   socials:

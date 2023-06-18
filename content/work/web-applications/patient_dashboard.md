@@ -18,17 +18,17 @@ tags:
 
 A patient-facing practitioner needed insight into one of their revenue streams:
 patient appointments. They need to know how much revenue appointments generate,
-to highlight any mitigatable issues leading to missed appointments, and identify
-patients who are likely to need a follow-up appointment. A desirable goal was to
-surface any actionable insights, which would reduce the cost of marketing by
-improving use of available patient data.
+highlighting any mitigable issues leading to missed appointments, and
+identifying patients likely to need a follow-up appointment. A desirable goal
+was to surface any actionable insights, which would reduce the cost of marketing
+by improving use of available patient data.
 
-_Please note that all the following screenshots have personally-identifiable
+_Please note that the following screenshots have all personally-identifiable
 information redacted for privacy._
 
 Having connected to their platform's data, manipulating it into an easily
 analysable dataset, I proceeded to design a sales and marketing _dashboard_,
-showing them the state of the business at any time.
+showing them the state of the appointments side of the business in real-time.
 
 I split the dashboard into five sections, providing different levels of data:
 
@@ -38,12 +38,12 @@ I split the dashboard into five sections, providing different levels of data:
 - strategic marketing: patient segmentation
 - potential data problems
 
-The insights provided by the dashboard made it simple to reduce simple errors,
-ensuring there would be no further missed appointments due to simple user errors.
+The insights provided by the dashboard made it quick to reduce simple errors,
+ensuring there would be no further missed appointments due to user error.
 
 With the dashboard available and presenting live analysis, it was now easy to
 see progress, set goals and reach patients who had simply forgotten to make
-contact to book follow-up appointments, which led to providing a better service
+contact to book follow-up appointments, leading to providing a better service
 and improved patient satisfaction. Through segmentation of their patient base,
 they could now reach patients in a highly targeted way to bolster their revenue
 with minimal marketing expense.
@@ -70,7 +70,7 @@ values for direct comparison.
 
 {{<figure src="/img/web-applications/patient_dashboard-rfm_analytics.jpg" title="RFM metrics">}}
 
-RFM is a methodology which attempts to segment patients by three criteria: the
+RFM is a methodology by which patients are segmented according to three criteria: the
 recency of their last appointment, the frequency of their appointments, and their
 revenue to date. This section presents a coarse overview of the overall
 patient figures.
@@ -84,7 +84,7 @@ enable precision marketing.
 Patients have been segmented across two variables: recency of their last
 appointment and by their lifetime value to the company, to date. Combined with dedicated
 reporting of patients whose most recent appointment was over sixty days ago, as
-well as those who have only had one appointment, this gives administrators the
+well as those who have only had one appointment, administrators now have the
 ability to concentrate their efforts on those patients who are most likely to
 need a professional follow-up.
 
@@ -99,7 +99,7 @@ need a professional follow-up.
 
 Finally, there is a separate dashboard listing the most likely data problems
 that may occur through operator error. This includes an analysis of common
-data-entry issues which can skew aggregate data or lead to missed appointments,
-thus missed revenue.
+data-entry issues which can skew aggregate data or lead to missed appointments
+and lost revenue.
 
 {{<figure src="/img/web-applications/patient_dashboard-problems_at_a_glance.jpg" title="Potential data problems, at a glance">}}
