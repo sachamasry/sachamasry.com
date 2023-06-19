@@ -23,8 +23,8 @@ identifying patients likely to need a follow-up appointment. A desirable goal
 was to surface any actionable insights, which would reduce the cost of marketing
 by improving use of available patient data.
 
-_Please note that the following screenshots have all personally-identifiable
-information redacted for privacy._
+_Please note, in the following screenshots all personally-identifiable
+information (PII) has been redacted to preserve patient privacy._
 
 Having connected to their platform's data, manipulating it into an easily
 analysable dataset, I proceeded to design a sales and marketing _dashboard_,
