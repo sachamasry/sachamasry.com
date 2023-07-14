@@ -80,7 +80,7 @@ menu:
     - name: print design
       url: /tags/print
       weight: 70
-    - name: video production
+    - name: video production & editing
       url: /tags/video
       weight: 100
 
