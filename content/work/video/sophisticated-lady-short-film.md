@@ -18,8 +18,8 @@ Video production, lighting, co-editing and colouring.
 
 ## Overview
 
-The client wanted to produce a short video, capturing the very particular Film
-Noir style, with a look to match the style's defining era (1940s), including
+The client wanted to produce a short video, capturing the very particular _Film
+Noir_ style, with a look to match the style's defining era (1940s), including
 costume, set, props, lighting, soundtrack and video.
 
 {{<figure src="/img/videos/Sophisticated_lady-waiting.jpg" title="Ready, and waiting endlessly by the phone">}}
@@ -27,7 +27,7 @@ costume, set, props, lighting, soundtrack and video.
 
 ## Premise
 
-This silent film captures one evening of our protagonist femme fatale, an
+This silent film captures one evening of our protagonist _femme fatale_, an
 evening during which she apparently awaits a man, who never comes. We see her
 ready to go out for the evening, dressed impeccably, until the dreaded call
 comes, presumably telling her that he will be late. We see her waiting, trying
