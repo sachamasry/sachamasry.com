@@ -1,1 +1,1 @@
-Copyright (c) 2019–2023, Sacha El Masry. All rights reserved.
+Copyright (c) 2019–2024, Sacha El Masry. All rights reserved.
